@@ -17,7 +17,7 @@ jobs:
       fail-fast: false
     steps:
       - name: Setup Developer Command Prompt
-        uses: qRoC/msvc-dev-cmd@master
+        uses: qRoC/msvc-dev-cmd@v1
       - name: Check out source code
         uses: actions/checkout@v1
       - name: Compile and run some C code
