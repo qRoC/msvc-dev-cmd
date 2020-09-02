@@ -32,7 +32,7 @@ Supports Windows. Does nothing on Linux and macOS.
 jobs:
   test:
     - uses: actions/checkout@v1
-    - uses: ilammy/msvc-dev-cmd@v1
+    - uses: qRoC/msvc-dev-cmd@master
     - name: Build something requiring CL.EXE
       run: |
         cmake -G "NMake Makefiles" .
