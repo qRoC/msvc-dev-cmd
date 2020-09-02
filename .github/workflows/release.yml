@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - release/*
-    paths:
-      - .github/workflows/release.yml
   schedule:
     - cron: '0 0 * * *'
 
