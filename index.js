@@ -13,6 +13,7 @@ const InterestingVariables = [
     'Path',
     'Platform',
     'VisualStudioVersion',
+    'UniversalCRTSdkDir',
     /^VCTools/,
     /^VSCMD_/,
     /^WindowsSDK/i,
